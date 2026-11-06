@@ -1,5 +1,5 @@
 <?php
-//cek button
+//cek button -
 if (isset($_POST['Submit']) && $_POST['Submit'] == "Submit") {
 $id_mahasiswa = $_POST['id_mahasiswa'];
 $nama = $_POST['nama'];
