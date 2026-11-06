@@ -17,7 +17,7 @@ document.location='13_Latihan1.php';
 <?php
 }
 else {
-include "koneksi-tutor.php";
+include "13_koneksi-tutor.php";
 
 //cek NIM di database
 $stmt = mysqli_prepare($Open, "SELECT id_mahasiswa FROM mahasiswa WHERE id_mahasiswa = ?");
